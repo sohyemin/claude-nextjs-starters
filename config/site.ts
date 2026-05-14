@@ -12,7 +12,36 @@ export const siteConfig: SiteConfig = {
 export const mainNav: NavItem[] = [
   { title: "홈", href: "/" },
   { title: "컴포넌트", href: "/components" },
+  { title: "예제", href: "/examples" },
   { title: "대시보드", href: "/dashboard" },
+];
+
+export const examplesNav: NavItem[] = [
+  {
+    title: "폼",
+    href: "/examples/forms",
+    description: "react-hook-form + Zod 다단계 폼",
+  },
+  {
+    title: "레이아웃",
+    href: "/examples/layouts",
+    description: "2단, 3단, 그리드, 마소느리 패턴",
+  },
+  {
+    title: "훅",
+    href: "/examples/hooks",
+    description: "usehooks-ts 핵심 훅 시연",
+  },
+  {
+    title: "데이터 페칭",
+    href: "/examples/data-fetching",
+    description: "TanStack Query + JSONPlaceholder",
+  },
+  {
+    title: "최적화",
+    href: "/examples/optimization",
+    description: "next/image, 메타데이터, 코드 스플리팅",
+  },
 ];
 
 export const dashboardNav: NavItem[] = [
